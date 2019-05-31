@@ -11,7 +11,7 @@
       password: "{{ vcenter_password }}"
       validate_certs: no
       folder: /datastore1/
-      name: "rhel7.6_{{ vmware_guest_ip }}""
+      name: "rhel7.6_{{ vmware_guest_ip }}"
 #      template: template_el7
 #      datacenter: DC1
       state: poweredon
